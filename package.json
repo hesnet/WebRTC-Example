@@ -1,4 +1,28 @@
 {
-  "name": "application-name",
-  "version": "0.0.1"
+  "name": "webrtc-example",
+  "version": "1.0.0",
+  "description": "Dead simple webrtc example",
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/senad87/WebRTC-Example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/senad87/WebRTC-Example/issues"
+  },
+  "homepage": "https://github.com/senad87/WebRTC-Example#readme",
+  "dependencies": {
+    "ws": "^1.1.1"
+  },
+  "engines": {
+    "node": "0.10.33"
+  }
 }
+
+
+
