@@ -1,4 +1,4 @@
-var HTTPS_PORT = 8443;
+var HTTPS_PORT = process.env.PORT || 8443;
 
 var fs = require('fs');
 var https = require('https');
